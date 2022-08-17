@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url(/img/bg_3229.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    border: black solid 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*header*/
+.encabezado{
+    width: 100%;
+}
+
+.encabezado .caja_header img{
+    width: 100%;
+}
+
+/*main*/
+main{
+    background-color: rgba(255, 255, 255, 0.489);
+
+}
+
+h1{
+    padding: 30px;
+}
+
+.container h2{
+    font-size: 1.8em;
+}
+.container p{
+    font-size: 1.2em;
+}
+
+.container .info_rex{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info_rex img{
+    border-radius: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+.info_rex div{
+    padding-left: 20px;
+}
+
+
+
+.container .info_ham{
+    display: flex;
+    padding: 50px;
+}
+.info_ham img{
+    border-radius: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+.info_ham div{
+    padding-left: 20px;
+}
+
+
+.container .info_woody{
+    display: flex;
+    padding: 50px;
+}
+.info_woody img{
+    border-radius: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+.info_woody div{
+    padding-left: 20px;
+}
+
+/*footer*/
+footer{
+    background-image: url(/img/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
